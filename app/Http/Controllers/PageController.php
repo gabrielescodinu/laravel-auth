@@ -21,5 +21,9 @@ class PageController extends Controller
     {
         return view('guests.contacts');
     }
+    public function posts()
+    {
+        return view('guests.posts.index');
+    }
 }
 
